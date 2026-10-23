@@ -12,7 +12,7 @@ The traces can also be fed to an AI agent as context when you ask it to reverse 
 
 1. Write a small test program that triggers the behavior.
 2. Capture a stack trace with your preferred method (WinDbg, Sysmon, etc.).
-3. Submit the trace.
+3. Submit the trace + harness + build version (that's the plan)
 
 ## Current state and plans
 
