@@ -21,6 +21,7 @@ Traces are currently stored as plain text files. This is a proof of concept. I p
 - A custom renderer for viewing traces more comfortably
 - A search engine for searching across all traces
 - A Trace Diff Tool to compare functionality between multiple windows versions
+- Go beyond stack traces, since they miss important context
 
 I believe many of today's problems have become data problems: the more data we have in a problem space, the better we can do, and the better our AI agents can do too. :D
 
