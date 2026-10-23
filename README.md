@@ -23,6 +23,7 @@ Traces are currently stored as plain text files. This is a proof of concept. I p
 - A Trace Diff Tool to compare functionality between multiple windows versions
 - Go beyond stack traces, since they miss important context
 
-I believe many of today’s problems have become data problems. The more data we have in a given problem space, the better we can solve it, and the better our AI agents can perform too. LLMs let us put knowledge to work computationally: we feed them the data and they do the heavy lifting. But acquiring that knowledge and data is still on us. That’s why I think the best approach is to combine your own knowledge, your LLM’s knowledge, and the collective knowledge of everyone else. :)
+I believe many of today’s problems have become data problems. The more data we have in a given problem space, the better we can solve it, and the better our AI agents can perform too. LLMs let us put knowledge to work computationally: we feed them the data and they do the heavy lifting. But acquiring that knowledge and data is still on us. That’s why I think the best approach is to combine your own knowledge, your LLM’s knowledge, and the collective knowledge of everyone else, of course there is a different between
+knowledge and raw data, but still given raw data, with enough context around them can help a lot.
 
 > **Status:** This project is in its very early stages. There is only one trace so far, but I wanted to publish the idea anyway.
