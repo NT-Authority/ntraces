@@ -1,19 +1,27 @@
 # NTRACES
 
-NTRACES goal is to collect as many stack traces for different kind of windows
-behaviours as much as possible, for multiple windows versions, for example 
-a stack trace for NTFS Cached File Reads.
+NTRACES aims to collect as many stack traces as possible for different Windows behaviors, across multiple Windows versions. For example, a stack trace for `NTFS Cached File Reads`.
 
-The way the traces are generated is that you write a test program, then capture
-a stack trace using your favorite method (windbg, sysmon, etc ...), then you
-take that trace and submit, currently I am using text files, but I am planning
-to put them in a more structured format, and maybe a custom renderer to view 
-them in a better way, and a search engine to search through the traces.
+## Goal
 
-The goal is that if you want to know the flow of some functionality, you can look
-at the traces, and start looking at these locations, forward or backward as you like.
-I also think they might be good to feed into an AI agent to give it some context 
-when requested a specific reverse engineering task of a windows functionality.
+The goal is to give you and your AI agent a **starting point**. If you want to understand the flow of a particular piece of functionality, look at its traces and start reading the code at those locations, following the calls forward or backward as you like.
 
-The project is still in baby-release, like there is only one trace, but I wanted
-to at least publish the idea anyways.
+The traces can also be fed to an AI agent as context when you ask it to reverse engineer a specific Windows feature.
+
+## How traces are made
+
+1. Write a small test program that triggers the behavior.
+2. Capture a stack trace with your preferred method (WinDbg, Sysmon, etc.).
+3. Submit the trace.
+
+## Current state and plans
+
+Traces are currently stored as plain text files. This is a proof of concept. I plan to move to a structured format and build:
+
+- A custom renderer for viewing traces more comfortably
+- A search engine for searching across all traces
+- A Trace Diff Tool to compare functionality between multiple windows versions
+
+I believe many of today's problems have become data problems: the more data we have in a problem space, the better we can do, and the better our AI agents can do too. :D
+
+> **Status:** This project is in its very early stages. There is only one trace so far, but I wanted to publish the idea anyway.
