@@ -1,0 +1,7 @@
+[0x0]   nt!MiMapSystemImage   0xfffff1033158e798   0xfffff80769756af7   
+[0x1]   nt!MmLoadSystemImageEx+0x2a7   0xfffff1033158e7a0   0xfffff80769769d13   
+[0x2]   nt!IopLoadDriver+0x21b   0xfffff1033158e950   0xfffff8076976967a   
+[0x3]   nt!IopLoadUnloadDriver+0x4a   0xfffff1033158eb30   0xfffff807691b434a   
+[0x4]   nt!ExpWorkerThread+0x16a   0xfffff1033158eb70   0xfffff80769187675   
+[0x5]   nt!PspSystemThreadStartup+0x55   0xfffff1033158ec10   0xfffff8076926a90c   
+[0x6]   nt!KiStartSystemThread+0x1c   0xfffff1033158ec60   0x0

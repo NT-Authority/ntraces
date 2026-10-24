@@ -1,0 +1,7 @@
+[0x0]   Driver!DriverEntry   0xfffff1033158e918   0xfffff807684a5020   
+[0x1]   Driver!GsDriverEntry+0x20   0xfffff1033158e920   0xfffff80769769fb5   
+[0x2]   nt!IopLoadDriver+0x4bd   0xfffff1033158e950   0xfffff8076976967a   
+[0x3]   nt!IopLoadUnloadDriver+0x4a   0xfffff1033158eb30   0xfffff807691b434a   
+[0x4]   nt!ExpWorkerThread+0x16a   0xfffff1033158eb70   0xfffff80769187675   
+[0x5]   nt!PspSystemThreadStartup+0x55   0xfffff1033158ec10   0xfffff8076926a90c   
+[0x6]   nt!KiStartSystemThread+0x1c   0xfffff1033158ec60   0x0   
